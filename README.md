@@ -2,6 +2,27 @@
 
 ## install
 
-git clone
+```shell
+git clone https://github.com/leftjs/guet_ipclient_new.git
+cd guet_ipclient_new
+yarn install
+yarn build
+node ./build/main.js  #exec
+```
 
-# usage
+## usage
+
+```
+  Usage: main [options] [command]
+
+  Options:
+
+    -V, --version       output the version number
+    -u, --user [value]  username for login
+    -p, --pass [value]  passwd for login
+    -h, --help          output usage information
+
+  Commands:
+
+    login               login to campus network
+```
